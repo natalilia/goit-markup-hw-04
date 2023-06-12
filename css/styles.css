@@ -180,7 +180,14 @@ max-width: 264px;
 /*----------SECTION HERO---------*/
 .hero-section {padding-top: 188px; 
   padding-bottom: 188px;
-  background-color: var(--navy-blue);
+  
+  background-image: 
+  linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)) ,url(/images/hero.jpg);
+  max-width: 1440рх;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
 
 }
 
@@ -277,6 +284,21 @@ margin-bottom: 8px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--slate);
+}
+
+.advantages-points-fon{
+  width: 264px;
+height: 112px;
+  background: var(--cloud);
+border-radius: 4px;
+margin-bottom: 8px;
+padding: 24px 100px;
+
+}
+
+.advantages-points-picture{ 
+  
+  
 }
 
 /*---------------EXAMPLES PHOTO------------*/
