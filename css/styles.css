@@ -257,7 +257,7 @@ max-width: 264px;
 /*----------=MAIN PAGE=----------*/
 /*----------SECTION HERO---------*/
 .hero-section {
- 
+  max-width: 1440px; 
   padding-top: 188px; 
   padding-bottom: 188px;
   
@@ -272,7 +272,7 @@ max-width: 264px;
 }
 
 .hero-container{
-  max-width: 1440px; 
+  
 
 }
 
@@ -486,7 +486,7 @@ margin-bottom: 8px;
   
   border-radius: 50%;
   background-color: var(--iris);
-  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+  transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .team-socialmedia-list:hover{background-color:var(--ocean)
@@ -523,7 +523,7 @@ margin-bottom: 72px;
 
 .customers-examples {
   height: 88px;
-  width: calc((100%-120px) / 6);
+  width: calc((100% - 120px) / 6);
 
 
 }
@@ -534,6 +534,7 @@ margin-bottom: 72px;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: var(--light-slate);;
 border: 1px solid var(--light-slate);
 border-radius: 4px;
 transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
@@ -541,10 +542,12 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
 
 .customers-examples-link:hover .customers-icon,
 .customers-examples-link:focus .customers-icon{
-  fill: var(--ocean);}
+  border-color:var(--ocean);
+color: var(--ocean);}
 
 .customers-icon {
-  fill: var(--light-slate);
+  fill: currentColor;
+  
 }
 
 
