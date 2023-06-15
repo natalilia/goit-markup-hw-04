@@ -679,6 +679,7 @@ padding: 40px 32px 164px 32px ;
 }
 
 .modal{
+
   width: 408px;
   min-height: 584px;
   position: absolute;
@@ -696,12 +697,20 @@ border-radius: 4px;
   top: 24px;
   width: 24px;
   height: 24px;
-  border-radius: 50%;
-  border: 1px solid var(--cornflower);
+ 
   background-color: transparent;
 }
 .is-hidden{
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
+}
+.modal-icon{
+  fill: var(--navy-blue-modal);
+}
+.modal-fon{
+ 
+  border-radius: 50%;
+  border: 1px solid var(--cornflower);
+
 }
