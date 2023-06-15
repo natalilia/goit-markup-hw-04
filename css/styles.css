@@ -743,6 +743,8 @@ background-color: var(--ocean);
   fill: var(--white);
 }
 
+.modal-btn:hover .modal-icon{fill: var(--white);}
+.modal-btn:focus .modal-icon{fill: var(--white);}
 .is-hidden{
   visibility: hidden;
   opacity: 0;
